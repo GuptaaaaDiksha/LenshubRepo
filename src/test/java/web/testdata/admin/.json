@@ -1,0 +1,18 @@
+{
+  "SubModule" : "Manage Actual Size",
+  "DeactivatePopUpText" : "Are you sure you want to Deactivate Actual Size ",
+  "Priority" : "12",
+  "AddActualSizePage" : "Add Actual Size",
+  "AddActualSizeToast" : " has been added successfully!",
+  "Title" : "Manage Actual Size",
+  "EditAction" : "Edit",
+  "UpdatedActualSizeToast" : " has been updated successfully!",
+  "DeactivateOption" : "Deactivate",
+  "EditPageTitle" : "Edit Actual Size",
+  "ActivateOption" : "Activate",
+  "DeactivateTost" : " has been Deactivated successfully!",
+  "ActivateTost" : " has been Activated successfully!",
+  "ActualSizeName" : "Actual Size_177644",
+  "ActivatePopUpText" : "Are you sure you want to Activate Actual Size ",
+  "Module" : "Manage Attributes"
+}

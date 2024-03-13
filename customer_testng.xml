@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="customer Suite"  verbose="1" parallel="classes" thread-count="1">
+	<listeners>
+		<listener class-name="utils.listeners.TestListener" />
+	</listeners>
+	<test  name="Parallel Test 1:">
+		<!--<parameter name="browser" value="chrome" />
+		<parameter name="environment" value="local" /> -->
+		<groups>
+			<define name="Smoke">
+				<include name="smoke" />
+			</define>
+			<define name="Regression">
+				<include name="regression" />
+			</define>
+			<define name="All">
+				<include name="smoke" />
+				<include name="regression" />
+			</define>
+			
+			<run>
+				<include name="All"/>
+			</run>
+		</groups>
+		<!-- <packages>
+			<package name="web.tests.admin.*" />
+			<package name="web.tests.customer.*" />
+		</packages> -->
+           <classes>
+		<class name="web.tests.customer.BookOrder"/>
+      		<class name="web.tests.customer.CallBackRequests"/>
+      		<class name="web.tests.customer.ProductAddWishlist"/>
+      		<class name="web.tests.customer.CompareProducts"/>
+      		<class name="web.tests.customer.CustomerAdminManageOrders"/>
+      		<class name="web.tests.customer.CustomerCoupons"/>
+      		<class name="web.tests.customer.ComplaintsCustomer_Admin"/>
+		</classes>
+	</test> 
+	</suite> 

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Admin Suite" verbose="1" parallel="classes"
+	thread-count="1">
+	<listeners>
+		<listener class-name="utils.listeners.TestListener" />
+	</listeners>
+	<test name="Parallel Test 1:">
+		<!--<parameter name="browser" value="chrome" /> <parameter name="environment" 
+			value="local" /> -->
+		<groups>
+			<define name="Smoke">
+				<include name="smoke" />
+			</define>
+			<define name="Regression">
+				<include name="regression" />
+			</define>
+			<define name="All">
+				<include name="smoke" />
+				<include name="regression" />
+			</define>
+
+			<run>
+				<include name="All" />
+			</run>
+		</groups>
+		<!-- <packages> <package name="web.tests.admin.*" /> <package name="web.tests.customer.*" 
+			/> </packages> -->
+		<classes>
+			<class name="web.tests.admin.ManageBanners" />
+			<class name="web.tests.admin.ManageBlogs" />
+			<class name="web.tests.admin.ManageActualSize" />
+			<class name="web.tests.admin.ManageCategory" />
+			<class name="web.tests.admin.ManageBrands" />
+			<class name="web.tests.admin.ManageCoupons" />
+			<class name="web.tests.admin.ManageFAQ" />
+			<class name="web.tests.admin.ManageFilterSize" />
+			<class name="web.tests.admin.ManageCountryManufacture" />
+			<class name="web.tests.admin.ManageFinishes" />
+			<class name="web.tests.admin.ManageMaterialType" />
+			<class name="web.tests.admin.ManageQuality" />
+			<class name="web.tests.admin.ManageSinkType" />
+			<class name="web.tests.admin.ManageProductShapes" />
+			<class name="web.tests.admin.ManageSinkMountType" />
+			<class name="web.tests.admin.ManageColorClusters" />
+			<class name="web.tests.admin.ManageProductTypes" />
+			<class name="web.tests.admin.ManageCuratedLists" />
+			<class name="web.tests.admin.ManageLayout" />
+			<class name="web.tests.admin.ManageBlogs" />
+			<class name="web.tests.admin.ManageInspirationGallery" />
+			<class name="web.tests.admin.ManageReviews" />
+			<class name="web.tests.admin.ManageTestimonials" />
+			<class name="web.tests.admin.ManageProductOverview" />
+			<class name="web.tests.admin.ManageBanners" />
+			<class name="web.tests.admin.ManageCategory" />
+			<class name="web.tests.admin.ManageColors" />
+		</classes>
+	</test>
+	<test name="Parallel Test 2:">
+		<classes>
+			<class name="web.tests.admin.ManageProduct" />
+			<class name="web.tests.admin.ManageOrders" />
+			<class name="web.tests.admin.ManageReviews" />
+		</classes>
+	</test>
+	<!-- <test name="Customer Test Cases:"> <classes> <class name="web.tests.customer.BookOrder"/> 
+		<class name="web.tests.customer.CallBackRequests"/> <class name="web.tests.customer.MakeToOrder"/> 
+		<class name="web.tests.customer.ProductAddWishlist"/> <class name="web.tests.customer.CustomerHome"/> 
+		</classes> </test> -->
+</suite> 

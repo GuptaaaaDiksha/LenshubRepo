@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-13T17:02:44 IST" name="API Suite" finished-at="2024-03-13T17:02:52 IST" duration-ms="7749">
+    <groups>
+      <group name="smoke">
+        <method signature="ManageActualSize.addManageActualSize()[pri:1, instance:web.tests.admin.ManageActualSize@2ddc9a9f]" name="addManageActualSize" class="web.tests.admin.ManageActualSize"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-03-13T17:02:44 IST" name="API Tests" finished-at="2024-03-13T17:02:52 IST" duration-ms="7749">
+      <class name="web.tests.admin.ManageActualSize">
+        <test-method is-config="true" signature="suiteSetup()[pri:0, instance:web.tests.admin.ManageActualSize@2ddc9a9f]" started-at="2024-03-13T17:02:44 IST" name="suiteSetup" finished-at="2024-03-13T17:02:44 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetup -->
+        <test-method is-config="true" signature="globalSetup()[pri:0, instance:web.tests.admin.ManageActualSize@2ddc9a9f]" started-at="2024-03-13T17:02:44 IST" name="globalSetup" finished-at="2024-03-13T17:02:44 IST" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- globalSetup -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:web.tests.admin.ManageActualSize@2ddc9a9f]" started-at="2024-03-13T17:02:44 IST" name="setup" finished-at="2024-03-13T17:02:48 IST" duration-ms="3523" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void web.tests.admin.ManageActualSize.addManageActualSize()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addManageActualSize()[pri:1, instance:web.tests.admin.ManageActualSize@2ddc9a9f]" started-at="2024-03-13T17:02:48 IST" name="addManageActualSize" description="TC_01" finished-at="2024-03-13T17:02:51 IST" duration-ms="3644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addManageActualSize -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:web.tests.admin.ManageActualSize@2ddc9a9f]" started-at="2024-03-13T17:02:51 IST" name="tearDown" finished-at="2024-03-13T17:02:52 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addManageActualSize status=SUCCESS method=ManageActualSize.addManageActualSize()[pri:1, instance:web.tests.admin.ManageActualSize@2ddc9a9f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="globalTeardown()[pri:0, instance:web.tests.admin.ManageActualSize@2ddc9a9f]" started-at="2024-03-13T17:02:52 IST" name="globalTeardown" finished-at="2024-03-13T17:02:52 IST" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- globalTeardown -->
+        <test-method is-config="true" signature="suiteTeardown()[pri:0, instance:web.tests.admin.ManageActualSize@2ddc9a9f]" started-at="2024-03-13T17:02:52 IST" name="suiteTeardown" finished-at="2024-03-13T17:02:52 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteTeardown -->
+      </class> <!-- web.tests.admin.ManageActualSize -->
+    </test> <!-- API Tests -->
+  </suite> <!-- API Suite -->
+</testng-results>

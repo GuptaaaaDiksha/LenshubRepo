@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Admin Suite]" parallel="classes">
+  <test thread-count="5" name="Admin Tests(failed)" parallel="classes">
+    <classes>
+      <class name="web.tests.admin.ManageCategory">
+        <methods>
+          <include name="setup"/>
+          <include name="addManageCategory"/>
+          <include name="globalSetup"/>
+          <include name="suiteSetup"/>
+          <include name="tearDown"/>
+          <include name="suiteTeardown"/>
+          <include name="globalTeardown"/>
+        </methods>
+      </class> <!-- web.tests.admin.ManageCategory -->
+    </classes>
+  </test> <!-- Admin Tests(failed) -->
+</suite> <!-- Failed suite [Admin Suite] -->

@@ -17,7 +17,7 @@
 				<configuration>
 					<suiteXmlFiles>
 						<!-- <suiteXmlFile>${suiteFile}</suiteXmlFile>  -->
-						<suiteXmlFile>api_testng.xml</suiteXmlFile> 
+							<suiteXmlFile>api_testng.xml</suiteXmlFile> 
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>

@@ -17,95 +17,104 @@ import web.config.WebConfig;
 
 public class DriverFactory {
 
-	private WebDriver driver;
-	private String isheadless = WebConfig.HEADLESS;
-	private String browser = WebConfig.BROWSER;
+    private WebDriver driver;
+    private String isheadless = WebConfig.HEADLESS;
+    private String browser = WebConfig.BROWSER;
 
-	public WebDriver initialize() {
-		try {
-				driver = setDriver(browser);
-		} catch (Exception e) {
-			Assert.fail(e.getMessage());
-		}
-		return driver;
-	}
+    public WebDriver initialize() {
+        try {
+            validateConfiguration();
+            driver = setDriver(browser);
+        } catch (Exception e) {
+            Assert.fail(e.getMessage());
+        }
+        return driver;
+    }
 
-	private WebDriver setDriver(String browser) {
+    private void validateConfiguration() {
+        if (!isValidBoolean(isheadless)) {
+            Assert.fail("Invalid value for isheadless: " + isheadless);
+        }
+        if (!isValidBrowser(browser)) {
+            Assert.fail("Invalid browser: " + browser);
+        }
+    }
 
-		switch (browser.toLowerCase()) {
-		case "chrome":
-			driver = initChromeDriver(isheadless);
-			break;
-		case "ie":
-			driver = initIEDriver(isheadless);
-			break;
-		case "firefox":
-			driver = initFirefoxDriver(isheadless);
-			break;
-		default:
-			driver = initChromeDriver(isheadless);
-		}
-		return driver;
-	}
+    private boolean isValidBoolean(String value) {
+        return "true".equalsIgnoreCase(value) || "false".equalsIgnoreCase(value);
+    }
 
-	private WebDriver initChromeDriver(String isheadless) {
-		 WebDriverManager.chromedriver().clearDriverCache().setup();
-	     WebDriverManager.chromedriver().clearResolutionCache().setup();
-		ChromeOptions options = new ChromeOptions();
-		options.addArguments("--remote-allow-origins=*");
-		if (isheadless.toLowerCase().equals("false")) { 
-			options.addArguments("--start-maximized");
-		} else {
-			//options.addArguments("--headless");	
-			options.addArguments("--window-size=1920,1080");
-		}
-		driver = new ChromeDriver(options);
-		return driver;
-	}
+    private boolean isValidBrowser(String value) {
+        return "chrome".equalsIgnoreCase(value) || "ie".equalsIgnoreCase(value) || "firefox".equalsIgnoreCase(value);
+    }
 
-	private WebDriver initIEDriver(String isheadless) {
-		WebDriverManager.edgedriver().setup();
-		EdgeOptions options = new EdgeOptions();
-		if (isheadless.toLowerCase().equals("false")) {
-			options.addArguments("--incognito");
-			options.addArguments("--start-maximized");
-		} else {
-			options.addArguments("--headless");
-			options.addArguments("--window-size=1920,1080");
-		}
-		driver = new EdgeDriver(options);
-		return driver;
-	}
+    private WebDriver setDriver(String browser) {
+        switch (browser.toLowerCase()) {
+            case "chrome":
+                return initChromeDriver(isheadless);
+            case "ie":
+                return initIEDriver(isheadless);
+            case "firefox":
+                return initFirefoxDriver(isheadless);
+            default:
+                Assert.fail("Invalid browser: " + browser);
+                return initChromeDriver(isheadless);
+        }
+    }
 
-	private WebDriver initFirefoxDriver(String isheadless) {
-		WebDriverManager.firefoxdriver().setup();
-		FirefoxOptions options = new FirefoxOptions();
-		if (isheadless.toLowerCase().equals("false")) {
-			options.addArguments("--incognito");
-			options.addArguments("--start-maximized");
-		} else {
-			options.addArguments("--headless");
-			options.addArguments("--window-size=1920,1080");
-		}
-		driver = new FirefoxDriver(options);
-		return driver;
-	}
+    private WebDriver initChromeDriver(String isheadless) {
+        WebDriverManager.chromedriver().clearDriverCache().setup();
+        WebDriverManager.chromedriver().clearResolutionCache().setup();
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--remote-allow-origins=*");
+        if ("false".equalsIgnoreCase(isheadless)) {
+            options.addArguments("--start-maximized");
+        } else {
+            options.addArguments("--window-size=1920,1080");
+        }
+        return new ChromeDriver(options);
+    }
 
-	private WebDriver initMobileChromeDriver(String isheadless) {
-		WebDriverManager.chromedriver().setup();
-		Map<String, String> mobileEmulation = new HashMap<>();
-		mobileEmulation.put("deviceName", "iPhone 12 Pro");
-		ChromeOptions options = new ChromeOptions();
-		options.setExperimentalOption("mobileEmulation", mobileEmulation);
+    private WebDriver initIEDriver(String isheadless) {
+        WebDriverManager.edgedriver().setup();
+        EdgeOptions options = new EdgeOptions();
+        if ("false".equalsIgnoreCase(isheadless)) {
+            options.addArguments("--incognito");
+            options.addArguments("--start-maximized");
+        } else {
+            options.addArguments("--headless");
+            options.addArguments("--window-size=1920,1080");
+        }
+        return new EdgeDriver(options);
+    }
 
-		if (isheadless.toLowerCase().equals("false")) {
-			options.addArguments("--incognito");
-			options.addArguments("--start-maximized");
-		} else {
-			options.addArguments("--headless");
-			options.addArguments("--window-size=1920,1080");
-		}
-		driver = new ChromeDriver(options);
-		return driver;
-	}
+    private WebDriver initFirefoxDriver(String isheadless) {
+        WebDriverManager.firefoxdriver().setup();
+        FirefoxOptions options = new FirefoxOptions();
+        if ("false".equalsIgnoreCase(isheadless)) {
+            options.addArguments("--incognito");
+            options.addArguments("--start-maximized");
+        } else {
+            options.addArguments("--headless");
+            options.addArguments("--window-size=1920,1080");
+        }
+        return new FirefoxDriver(options);
+    }
+
+    private WebDriver initMobileChromeDriver(String isheadless) {
+        WebDriverManager.chromedriver().setup();
+        Map<String, String> mobileEmulation = new HashMap<>();
+        mobileEmulation.put("deviceName", "iPhone 12 Pro");
+        ChromeOptions options = new ChromeOptions();
+        options.setExperimentalOption("mobileEmulation", mobileEmulation);
+
+        if ("false".equalsIgnoreCase(isheadless)) {
+            options.addArguments("--incognito");
+            options.addArguments("--start-maximized");
+        } else {
+            options.addArguments("--headless");
+            options.addArguments("--window-size=1920,1080");
+        }
+        return new ChromeDriver(options);
+    }
 }

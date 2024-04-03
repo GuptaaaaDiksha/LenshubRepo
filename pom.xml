@@ -30,6 +30,18 @@
 			<artifactId>selenium-java</artifactId>
 			<version>4.8.0</version>
 		</dependency>
+		
+<dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>1.18.22</version> <!-- Use the latest version number from Maven Central -->
+    <scope>provided</scope>
+</dependency>
+
+		
+		
+		
+		
 		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-support -->
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
@@ -73,5 +85,6 @@
 			<artifactId>commons-configuration</artifactId>
 			<version>1.10</version>
 		</dependency>
+		
 	</dependencies>
 </project>

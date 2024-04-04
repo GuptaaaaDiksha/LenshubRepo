@@ -64,57 +64,46 @@ public class DriverFactory {
 
     private WebDriver initChromeDriver(String isheadless) {
         WebDriverManager.chromedriver().clearDriverCache().setup();
-        WebDriverManager.chromedriver().clearResolutionCache().setup();
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
-        if ("false".equalsIgnoreCase(isheadless)) {
-            options.addArguments("--start-maximized");
-        } else {
+        
+        if ("true".equalsIgnoreCase(isheadless)) {
+            options.addArguments("--headless");
             options.addArguments("--window-size=1920,1080");
+        } else {
+            options.addArguments("--start-maximized");
         }
+        
         return new ChromeDriver(options);
     }
 
     private WebDriver initIEDriver(String isheadless) {
         WebDriverManager.edgedriver().setup();
         EdgeOptions options = new EdgeOptions();
-        if ("false".equalsIgnoreCase(isheadless)) {
-            options.addArguments("--incognito");
-            options.addArguments("--start-maximized");
-        } else {
+        
+        if ("true".equalsIgnoreCase(isheadless)) {
             options.addArguments("--headless");
             options.addArguments("--window-size=1920,1080");
+        } else {
+            options.addArguments("--incognito");
+            options.addArguments("--start-maximized");
         }
+        
         return new EdgeDriver(options);
     }
 
     private WebDriver initFirefoxDriver(String isheadless) {
         WebDriverManager.firefoxdriver().setup();
         FirefoxOptions options = new FirefoxOptions();
-        if ("false".equalsIgnoreCase(isheadless)) {
-            options.addArguments("--incognito");
-            options.addArguments("--start-maximized");
-        } else {
+        
+        if ("true".equalsIgnoreCase(isheadless)) {
             options.addArguments("--headless");
             options.addArguments("--window-size=1920,1080");
+        } else {
+            options.addArguments("--incognito");
+            options.addArguments("--start-maximized");
         }
+        
         return new FirefoxDriver(options);
-    }
-
-    private WebDriver initMobileChromeDriver(String isheadless) {
-        WebDriverManager.chromedriver().setup();
-        Map<String, String> mobileEmulation = new HashMap<>();
-        mobileEmulation.put("deviceName", "iPhone 12 Pro");
-        ChromeOptions options = new ChromeOptions();
-        options.setExperimentalOption("mobileEmulation", mobileEmulation);
-
-        if ("false".equalsIgnoreCase(isheadless)) {
-            options.addArguments("--incognito");
-            options.addArguments("--start-maximized");
-        } else {
-            options.addArguments("--headless");
-            options.addArguments("--window-size=1920,1080");
-        }
-        return new ChromeDriver(options);
     }
 }

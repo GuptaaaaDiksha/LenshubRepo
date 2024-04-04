@@ -70,6 +70,8 @@ public class DriverFactory {
         if ("true".equalsIgnoreCase(isheadless)) {
             options.addArguments("--headless");
             options.addArguments("--window-size=1920,1080");
+            options.addArguments("--no-sandbox"); // Bypass OS security model
+            options.addArguments("--disable-dev-shm-usage");
         } else {
             options.addArguments("--start-maximized");
         }

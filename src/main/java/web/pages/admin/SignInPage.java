@@ -16,6 +16,7 @@ public class SignInPage extends BasePage {
 	protected By passwordInput = By.xpath("//input[@type='password']");
 	protected By loginButton = By.xpath("//button[@type='submit']");
 	protected By password = By.xpath("//button[@type='submit']");
+	protected By loginText = By.xpath("//h2");
 
 	public SignInPage(WebDriver driver) {
 		super(driver);
@@ -29,7 +30,9 @@ public class SignInPage extends BasePage {
 	}
 	
 	
-	
+	public String getPageTitle() {
+		return getElementText(loginText);
+	}
 	
 	
 	

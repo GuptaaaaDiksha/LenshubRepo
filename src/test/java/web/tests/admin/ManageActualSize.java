@@ -48,10 +48,10 @@ public class ManageActualSize extends BaseTest{
 	public void addManageActualSize() {
 		signInPageStep.navigateToURL(URL);
 		signInPageStep.loginUser();
-	//	softAssert.assertEquals(loginPageTitle, editLayoutTitle,"TC_011: User is not navigated to the login page.");
+		String pageTitle = signInPageStep.getPageTitle();
 
-		
-		//softAssert.assertAll();
+		softAssert.assertEquals(pageTitle, "Login","TC_013,TC_014: Page Title not matching.");
+		softAssert.assertAll();
 		
 	
 		

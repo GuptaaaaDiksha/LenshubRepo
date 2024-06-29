@@ -41,4 +41,6 @@ WebUI.navigateToUrl('https://rahulshettyacademy.com/AutomationPractice/')
 WebUI.click(findTestObject('Object Repository/Page_Practice Page/input_Switch To Alert Example_alertbtn'))
 
 WebUI.click(findTestObject('Object Repository/Page_Practice Page/input_Switch To Alert Example_confirmbtn'))
+WebUI.click(findTestObject('Object Repository/Page_Practice Page/input_Switch To Alert Example_confirmbtn'))
+
 

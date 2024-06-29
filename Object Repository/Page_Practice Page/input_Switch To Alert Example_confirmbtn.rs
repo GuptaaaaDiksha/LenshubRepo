@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>e10eedef-290b-4ad7-9750-2181c5db5a45</webElementGuid>
+      <webElementGuid>bb6b5d32-4020-4e8d-b80e-3a735f65b68d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>id</name>
       <type>Main</type>
       <value>confirmbtn</value>
-      <webElementGuid>3363f529-6126-41de-8f8f-2e385eb99ae1</webElementGuid>
+      <webElementGuid>c33cc369-ffdf-496c-aa9b-db62f7ffb598</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn-style</value>
-      <webElementGuid>8a1114e0-cbd7-4404-9fd3-20f300ef1747</webElementGuid>
+      <webElementGuid>b000294a-ac27-424f-ae77-ca521c5a50e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Confirm</value>
-      <webElementGuid>30ccbe1a-bf3a-4e75-85e3-c989f9611c61</webElementGuid>
+      <webElementGuid>070c6e72-cbc8-4124-8389-ea0147e55007</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>displayConfirm()</value>
-      <webElementGuid>4642c7df-4def-4f71-93c4-67bdaa25c784</webElementGuid>
+      <webElementGuid>10cace7e-691b-4569-a86e-a9edf87d2a3b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>50544af9-d597-4a59-9bf2-e53c30284c31</webElementGuid>
+      <webElementGuid>406ba687-b584-4458-9ca3-fb26d0d17f46</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;confirmbtn&quot;)</value>
-      <webElementGuid>586fffc8-861f-4e95-a2f1-841df43b3c8e</webElementGuid>
+      <webElementGuid>2c7bc7cb-0625-4d6b-9a29-058729887313</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='confirmbtn']</value>
-      <webElementGuid>1082dca0-c6ab-487a-987a-e35cbf42c1b2</webElementGuid>
+      <webElementGuid>27aa5317-ac7d-48e7-a374-f8568e38d436</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input[3]</value>
-      <webElementGuid>824c3516-0101-4c3a-ba95-a90edd336a5a</webElementGuid>
+      <webElementGuid>0fec27a6-d7ef-473b-80a3-46b353d62bd4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'confirmbtn' and @type = 'submit']</value>
-      <webElementGuid>24414d73-f3cb-4c23-8074-d21f3fb04adc</webElementGuid>
+      <webElementGuid>1bf818d1-d9c5-40c7-822f-4f66a79024f8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

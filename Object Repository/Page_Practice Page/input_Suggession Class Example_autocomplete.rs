@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>28b5257f-7d7e-449e-bef9-f5ff697a6ebe</webElementGuid>
+      <webElementGuid>89943078-807d-43bb-a649-25688399896e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>3f948f3a-3cea-4f71-b27b-960b0b92659e</webElementGuid>
+      <webElementGuid>afc344f5-10d0-4c09-bab9-860ca0196200</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>id</name>
       <type>Main</type>
       <value>autocomplete</value>
-      <webElementGuid>f987fcec-3373-4c2d-99df-0630fb8d034a</webElementGuid>
+      <webElementGuid>43887d06-fc1b-4354-8ae0-8bbbb5fc011e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>inputs ui-autocomplete-input</value>
-      <webElementGuid>85674948-1ca8-4a84-b488-9051e3660a25</webElementGuid>
+      <webElementGuid>031e1b94-951c-4d2e-ba38-d8097400efdf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Type to Select Countries</value>
-      <webElementGuid>95431091-b1cb-409f-bf0d-de1cd58aa1bb</webElementGuid>
+      <webElementGuid>e1e06596-8937-4a50-b2c9-c019909d7719</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>ba66ac5e-908b-4103-bd7f-fba389797112</webElementGuid>
+      <webElementGuid>c84856a7-21a8-4cdb-b95c-aa3d22feef82</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;autocomplete&quot;)</value>
-      <webElementGuid>2e0ccb23-1f9d-47cc-9eb6-6871f8b29f1b</webElementGuid>
+      <webElementGuid>138ae113-013d-4353-be94-1d2acca11991</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='autocomplete']</value>
-      <webElementGuid>0b8700d3-834f-4960-a2e8-6edcbbcfa543</webElementGuid>
+      <webElementGuid>74174cd1-f685-4c68-984a-fdb31f6826e3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='select-class-example']/fieldset/input</value>
-      <webElementGuid>bbfc31fc-303e-46de-bde5-e93b24249009</webElementGuid>
+      <webElementGuid>6f089d89-688f-4e84-98a6-f9a365f351cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//fieldset/input</value>
-      <webElementGuid>f3fc6538-a6d2-418c-ae20-bcc70c10b12b</webElementGuid>
+      <webElementGuid>b17f8898-aad9-4820-8467-4e35592bbfa0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @id = 'autocomplete' and @placeholder = 'Type to Select Countries']</value>
-      <webElementGuid>5c03aa1e-679b-45c9-a488-9db3f9790c5a</webElementGuid>
+      <webElementGuid>750fe273-8248-4d6a-b8b8-a234d271c09a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

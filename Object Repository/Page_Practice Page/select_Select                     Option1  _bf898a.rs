@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>7b80e541-033a-4e65-956c-34c5e6bd2754</webElementGuid>
+      <webElementGuid>783932c6-645d-4d18-8ce5-b1d52fc20a99</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>id</name>
       <type>Main</type>
       <value>dropdown-class-example</value>
-      <webElementGuid>fa7c06ac-2dc4-43c7-9f3c-fc39f03662c9</webElementGuid>
+      <webElementGuid>79859f98-340c-40c3-ab5e-02adb7c4d50a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>name</name>
       <type>Main</type>
       <value>dropdown-class-example</value>
-      <webElementGuid>529e4caf-2caa-48ca-ac76-6a226772976d</webElementGuid>
+      <webElementGuid>30cf7c5d-e241-4e8a-b923-8947de60ad65</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
                     Option2
                     Option3
                 </value>
-      <webElementGuid>fe556fef-5bc7-4807-ad6f-cb6d65818a66</webElementGuid>
+      <webElementGuid>90e167e9-c89c-49ad-a856-a33234a4d8e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;dropdown-class-example&quot;)</value>
-      <webElementGuid>d9ca4cbb-fbce-477d-b7a2-c566bbf1b7d8</webElementGuid>
+      <webElementGuid>d76af6af-7427-4d6d-95cc-793431173840</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='dropdown-class-example']</value>
-      <webElementGuid>1f7e6497-903a-4a57-aac9-993e5d28b247</webElementGuid>
+      <webElementGuid>cb2c708c-339c-4aa6-a2ea-bc43ec1f2654</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Dropdown Example'])[1]/following::select[1]</value>
-      <webElementGuid>20d12ae9-7d58-402f-a7ea-45d656791b7f</webElementGuid>
+      <webElementGuid>d1858fed-c42f-4ff7-8e9f-26c0f320db7d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Suggession Class Example'])[1]/following::select[1]</value>
-      <webElementGuid>ae5067d2-2614-40f0-91e8-f4f17e468b06</webElementGuid>
+      <webElementGuid>324594ab-acd2-471b-a461-29e624455ffb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Checkbox Example'])[1]/preceding::select[1]</value>
-      <webElementGuid>fb2722f0-2e2e-4d14-816c-141b6805f463</webElementGuid>
+      <webElementGuid>eca12e19-3f1b-49eb-a9a9-f0f9acf648cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//select</value>
-      <webElementGuid>c3ca4161-2c9a-4326-ab86-3bc1bd7fd502</webElementGuid>
+      <webElementGuid>918167a0-5aea-4816-950d-d596de47bd0d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -124,6 +124,6 @@
                     Option2
                     Option3
                 ')]</value>
-      <webElementGuid>992d1876-3c5f-4115-a67b-b65dca93e525</webElementGuid>
+      <webElementGuid>140df220-b392-443a-a8a4-819c57c83d8f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Suggession Class Example_autocomplete</name>
+   <name>input_Password_password</name>
    <tag></tag>
-   <elementGuidId>c3f7d1e3-12a0-4ddf-8ee5-aeb468a70766</elementGuidId>
+   <elementGuidId>980c49f1-0965-4efd-9c82-a00c8b6c3a49</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='autocomplete']</value>
+         <value>//input[@name='password']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#autocomplete</value>
+         <value>input[name=&quot;password&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:attr=[placeholder=&quot;Type to Select Countries&quot;i]</value>
+         <value>internal:attr=[placeholder=&quot;Password&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,86 +29,78 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>89943078-807d-43bb-a649-25688399896e</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>text</value>
-      <webElementGuid>afc344f5-10d0-4c09-bab9-860ca0196200</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>autocomplete</value>
-      <webElementGuid>43887d06-fc1b-4354-8ae0-8bbbb5fc011e</webElementGuid>
+      <webElementGuid>ce59060b-142e-42d0-a977-1efbbf9b4326</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>inputs ui-autocomplete-input</value>
-      <webElementGuid>031e1b94-951c-4d2e-ba38-d8097400efdf</webElementGuid>
+      <value>oxd-input oxd-input--focus</value>
+      <webElementGuid>1c655977-463a-4390-adbf-eb5497bff397</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>password</value>
+      <webElementGuid>2fc2f20b-27d8-4e2e-b106-ca55c79f741d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>password</value>
+      <webElementGuid>8e6dec39-2af8-4452-8dfb-0c2ddb080fa2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Type to Select Countries</value>
-      <webElementGuid>e1e06596-8937-4a50-b2c9-c019909d7719</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>autocomplete</name>
-      <type>Main</type>
-      <value>off</value>
-      <webElementGuid>c84856a7-21a8-4cdb-b95c-aa3d22feef82</webElementGuid>
+      <value>Password</value>
+      <webElementGuid>b7306144-dc40-45a8-8d22-83ecb1531781</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;autocomplete&quot;)</value>
-      <webElementGuid>138ae113-013d-4353-be94-1d2acca11991</webElementGuid>
+      <value>id(&quot;app&quot;)/div[@class=&quot;orangehrm-login-layout&quot;]/div[@class=&quot;orangehrm-login-layout-blob&quot;]/div[@class=&quot;orangehrm-login-container&quot;]/div[@class=&quot;orangehrm-login-slot-wrapper&quot;]/div[@class=&quot;orangehrm-login-slot&quot;]/div[@class=&quot;orangehrm-login-form&quot;]/form[@class=&quot;oxd-form&quot;]/div[@class=&quot;oxd-form-row&quot;]/div[@class=&quot;oxd-input-group oxd-input-field-bottom-space&quot;]/div[2]/input[@class=&quot;oxd-input oxd-input--focus&quot;]</value>
+      <webElementGuid>cd160f9e-5521-4e6f-be2b-b807874ce6e4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='autocomplete']</value>
-      <webElementGuid>74174cd1-f685-4c68-984a-fdb31f6826e3</webElementGuid>
+      <value>//input[@name='password']</value>
+      <webElementGuid>d6d7a093-ced1-4362-bed7-f0c22e9de019</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='select-class-example']/fieldset/input</value>
-      <webElementGuid>6f089d89-688f-4e84-98a6-f9a365f351cf</webElementGuid>
+      <value>//div[@id='app']/div/div/div/div/div[2]/div[2]/form/div[2]/div/div[2]/input</value>
+      <webElementGuid>42f6da93-466e-459a-a266-e1c9842b1f18</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//fieldset/input</value>
-      <webElementGuid>b17f8898-aad9-4820-8467-4e35592bbfa0</webElementGuid>
+      <value>//div[2]/div/div[2]/input</value>
+      <webElementGuid>ba224d19-8298-4c1a-a6ec-a6e0e0f3289a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'text' and @id = 'autocomplete' and @placeholder = 'Type to Select Countries']</value>
-      <webElementGuid>750fe273-8248-4d6a-b8b8-a234d271c09a</webElementGuid>
+      <value>//input[@type = 'password' and @name = 'password' and @placeholder = 'Password']</value>
+      <webElementGuid>73dd5fe4-a661-45dc-9256-ac97d2b32cc1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

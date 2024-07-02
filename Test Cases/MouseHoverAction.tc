@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>ManualModeTestcase</name>
+   <name>MouseHoverAction</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>4bfc9f3d-d5d2-48ba-be29-60f205eb369f</testCaseGuid>
+   <testCaseGuid>c0d044ad-695e-4f7c-bc14-01aea0c91560</testCaseGuid>
 </TestCaseEntity>

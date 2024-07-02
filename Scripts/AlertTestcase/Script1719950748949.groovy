@@ -19,26 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://rahulshettyacademy.com/AutomationPractice/')
+WebUI.navigateToUrl('https://demo.automationtesting.in/Alerts.html')
 
-WebUI.click(findTestObject('Object Repository/Page_Practice Page/label_Radio1'))
+WebUI.click(findTestObject('Object Repository/AlertsObject/Page_Alerts/button_click the button to display an  alert box'))
 
-WebUI.click(findTestObject('Object Repository/Page_Practice Page/label_Radio1'))
+WebUI.waitForAlert(10)
 
-WebUI.click(findTestObject('Object Repository/Page_Practice Page/input_Radio1_radioButton'))
-
-WebUI.setText(findTestObject('Object Repository/Page_Practice Page/input_Suggession Class Example_autocomplete'), 'chin')
-
-WebUI.click(findTestObject('Object Repository/Page_Practice Page/div_China'))
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Practice Page/select_Select                     Option1  _bf898a'), 
-    'option1', true)
-
-WebUI.click(findTestObject('Object Repository/Page_Practice Page/label_Option1'))
-
-WebUI.click(findTestObject('Object Repository/Page_Practice Page/input_Option1_checkBoxOption1'))
-
-WebUI.setText(findTestObject('Object Repository/Page_Practice Page/input_Switch To Alert Example_enter-name'), 'Diksha')
-
-WebUI.click(findTestObject('Object Repository/Page_Practice Page/input_Switch To Alert Example_confirmbtn'))
+WebUI.acceptAlert()
 

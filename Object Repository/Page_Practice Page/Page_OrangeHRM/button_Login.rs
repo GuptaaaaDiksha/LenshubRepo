@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_China</name>
+   <name>button_Login</name>
    <tag></tag>
-   <elementGuidId>12e967db-2c0d-4637-8ec6-f9203aa9168a</elementGuidId>
+   <elementGuidId>75a4b017-7978-4f77-bc2c-9433fbbb6971</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='ui-id-2']</value>
+         <value>//button[@type='submit']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#ui-id-2</value>
+         <value>button.oxd-button.oxd-button--medium.oxd-button--main.orangehrm-login-button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>#ui-id-2</value>
+         <value>internal:role=button[name=&quot;Login&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,111 +28,95 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-      <webElementGuid>2547a5da-e46f-49c6-b4bd-b6fc2439ef73</webElementGuid>
+      <value>button</value>
+      <webElementGuid>63b37387-3b6f-4e26-afff-1d16b0e963c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>type</name>
       <type>Main</type>
-      <value>ui-id-2</value>
-      <webElementGuid>3723544e-fb37-4a59-bd5e-49bca3d9f122</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
-      <type>Main</type>
-      <value>-1</value>
-      <webElementGuid>5058edaf-b393-4e6c-97a8-a50ab275a501</webElementGuid>
+      <value>submit</value>
+      <webElementGuid>dc430681-3e0f-4c94-b38a-a29542c499f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ui-menu-item-wrapper ui-state-active</value>
-      <webElementGuid>3f94270e-6550-4eb9-a8ee-2bda691fd720</webElementGuid>
+      <value>oxd-button oxd-button--medium oxd-button--main orangehrm-login-button</value>
+      <webElementGuid>b8c7c513-997e-4d12-b67d-8ed2d97a3c2b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>China</value>
-      <webElementGuid>efe79cf9-e0b9-4a6e-bb63-c94b5b356e7f</webElementGuid>
+      <value> Login </value>
+      <webElementGuid>fadfd37e-beb0-4587-8580-3e26845cd48e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ui-id-2&quot;)</value>
-      <webElementGuid>07f47c72-cfd9-4973-96b1-22b5fff7c23b</webElementGuid>
+      <value>id(&quot;app&quot;)/div[@class=&quot;orangehrm-login-layout&quot;]/div[@class=&quot;orangehrm-login-layout-blob&quot;]/div[@class=&quot;orangehrm-login-container&quot;]/div[@class=&quot;orangehrm-login-slot-wrapper&quot;]/div[@class=&quot;orangehrm-login-slot&quot;]/div[@class=&quot;orangehrm-login-form&quot;]/form[@class=&quot;oxd-form&quot;]/div[@class=&quot;oxd-form-actions orangehrm-login-action&quot;]/button[@class=&quot;oxd-button oxd-button--medium oxd-button--main orangehrm-login-button&quot;]</value>
+      <webElementGuid>3ff9405c-d6ba-465a-a3b9-484c74189528</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//div[@id='ui-id-2']</value>
-      <webElementGuid>5ceb6823-919e-4c9d-8f01-765e3980b871</webElementGuid>
+      <value>//button[@type='submit']</value>
+      <webElementGuid>ca377c12-f5a2-4841-9c0a-c1b7b7663436</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//ul[@id='ui-id-1']/li/div</value>
-      <webElementGuid>f4e2c7df-cc90-40c9-b638-92ec2490b34a</webElementGuid>
+      <value>//div[@id='app']/div/div/div/div/div[2]/div[2]/form/div[3]/button</value>
+      <webElementGuid>363b320d-a250-4c93-9df2-370ca5510330</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Medianh Consulting'])[1]/following::div[1]</value>
-      <webElementGuid>43a2d225-c7d7-4ab5-96d2-469392756f37</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[1]</value>
+      <webElementGuid>979f21c8-a5df-4645-8f71-a021c99fbf97</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Taiwan, Province of China'])[1]/preceding::div[1]</value>
-      <webElementGuid>40a426cb-c2b1-4d87-9d18-3c30bb5f5e15</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/following::button[1]</value>
+      <webElementGuid>a5966e3c-a432-4a77-834c-8138ed3e5c11</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='China'])[2]/preceding::div[3]</value>
-      <webElementGuid>d205efb2-f773-4a0c-b714-2a3a5607675c</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='China']/parent::*</value>
-      <webElementGuid>7cf4090d-5a3d-4688-8a87-82bae4ab705a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OrangeHRM, Inc'])[1]/preceding::button[1]</value>
+      <webElementGuid>e977aafd-db2e-4ab8-9bda-97270c4b8d62</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li/div</value>
-      <webElementGuid>9249aa3c-53c6-4446-b745-8e1426641259</webElementGuid>
+      <value>//button</value>
+      <webElementGuid>b0042b79-3ab1-4ca0-a6d6-ce0cda1f53ec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[@id = 'ui-id-2' and (text() = 'China' or . = 'China')]</value>
-      <webElementGuid>1c0a1a86-9bfd-4096-b9fc-c19f7394a0e6</webElementGuid>
+      <value>//button[@type = 'submit' and (text() = ' Login ' or . = ' Login ')]</value>
+      <webElementGuid>05bef8d8-f460-4495-944c-896493860822</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_India</name>
+   <name>div_Products</name>
    <tag></tag>
-   <elementGuidId>793274b2-97ce-42a1-943c-6f45882751ab</elementGuidId>
+   <elementGuidId>e98683e6-157d-4917-808a-da2a8a0d55b7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='ui-id-3']</value>
+         <key>CSS</key>
+         <value>div.top_nav_title</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#ui-id-3</value>
+         <key>XPATH</key>
+         <value>//div[@id='katalon_header']/section[2]/div/div/div/div/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>#ui-id-3</value>
+         <value>internal:text=&quot;Products&quot;i >> nth=0</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,110 +29,94 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>ecfd7759-b729-4422-8d12-b9d304cf0af0</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>ui-id-3</value>
-      <webElementGuid>ac3ebde4-ad56-4f79-af39-8df014525e29</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
-      <type>Main</type>
-      <value>-1</value>
-      <webElementGuid>29f61072-330b-48ed-a0d6-40ab76eff380</webElementGuid>
+      <webElementGuid>c46db1d2-a1fd-41c2-8747-5b8176c3f4fa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ui-menu-item-wrapper ui-state-active</value>
-      <webElementGuid>4afcbac1-82ac-4c90-bf9f-ff9acf2a8a1e</webElementGuid>
+      <value>top_nav_title</value>
+      <webElementGuid>8348e106-9dbb-4fe5-8ced-14b31d57bcbf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>India</value>
-      <webElementGuid>4b39464b-35d9-408b-8922-8bd536fd9522</webElementGuid>
+      <value>Products</value>
+      <webElementGuid>29670fe5-48d7-45e7-95d6-7d730249b052</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ui-id-3&quot;)</value>
-      <webElementGuid>56e2b609-e320-4e83-ad86-8989691dd06b</webElementGuid>
+      <value>id(&quot;katalon_header&quot;)/section[@class=&quot;rebrand_header undefined&quot;]/div[@class=&quot;wrap_container&quot;]/div[@class=&quot;left_logo_and_topnav&quot;]/div[@class=&quot;katalon_topnav&quot;]/div[@class=&quot;top_nav_item have_child_menu&quot;]/div[@class=&quot;top_nav_title&quot;]</value>
+      <webElementGuid>6fe1f8cb-9e57-4ee8-ab8d-37fd80e3d42e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//div[@id='ui-id-3']</value>
-      <webElementGuid>6cf968cf-6618-4889-8657-48a0d851ef29</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//ul[@id='ui-id-1']/li[2]/div</value>
-      <webElementGuid>e203827d-b6b9-4f84-bd81-2309f8745292</webElementGuid>
+      <value>//div[@id='katalon_header']/section[2]/div/div/div/div/div</value>
+      <webElementGuid>c124392d-6dd0-4ada-b5f3-20fd837d0623</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='British Indian Ocean Territory'])[1]/following::div[1]</value>
-      <webElementGuid>267995f8-e0eb-49d0-9a9e-0f7ec86adda8</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log in'])[1]/following::div[5]</value>
+      <webElementGuid>72f7e0e4-10ff-4460-9b90-3a70df6c1e18</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Medianh Consulting'])[1]/following::div[2]</value>
-      <webElementGuid>8f62caf0-95ca-47a1-85fa-b3080e035526</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact us'])[1]/following::div[5]</value>
+      <webElementGuid>1953cf5a-4cfd-4d40-bc70-d6db8e14fa5d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='India'])[2]/preceding::div[2]</value>
-      <webElementGuid>f8039c3c-595a-4521-9d18-f719ac2e9787</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CREATE AUTOMATED TESTS FASTER: FOR TEAMS OF ANY SIZE'])[1]/preceding::div[1]</value>
+      <webElementGuid>ba260fc1-9fcd-47b9-9cbd-1f657223d57c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='India']/parent::*</value>
-      <webElementGuid>72b98a99-05a0-4c68-9a14-267dd1d35cd3</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Katalon Studio'])[1]/preceding::div[2]</value>
+      <webElementGuid>ac3c19e2-f6df-4123-b19f-d955739ef713</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Products']/parent::*</value>
+      <webElementGuid>ad80168e-f562-4d82-a8ed-7851b8743c7d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[2]/div</value>
-      <webElementGuid>62aa692e-67a3-48b6-b6f3-9daec90622ca</webElementGuid>
+      <value>//section[2]/div/div/div/div/div</value>
+      <webElementGuid>64405539-e154-4463-976a-cdf62b54f4e3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[@id = 'ui-id-3' and (text() = 'India' or . = 'India')]</value>
-      <webElementGuid>f7b55159-a9c9-4c7f-be25-5ae191c5d55c</webElementGuid>
+      <value>//div[(text() = 'Products' or . = 'Products')]</value>
+      <webElementGuid>4607405c-4ddc-4f7e-b8a0-6a2707d449a2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

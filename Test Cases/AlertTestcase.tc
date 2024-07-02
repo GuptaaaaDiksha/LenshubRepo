@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>RecordModePractice</name>
+   <name>AlertTestcase</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>164cb3f0-c042-4d89-a3b4-eb78244b052d</testCaseGuid>
+   <testCaseGuid>915065e5-04da-4fe2-bc0a-8cc94faa3a4f</testCaseGuid>
 </TestCaseEntity>

@@ -19,28 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://rahulshettyacademy.com/AutomationPractice/')
+WebUI.navigateToUrl('https://katalon.com/')
 
-WebUI.click(findTestObject('Object Repository/Page_Practice Page/input_Radio1_radioButton'))
-
-WebUI.setText(findTestObject('Object Repository/Page_Practice Page/input_Suggession Class Example_autocomplete'), 'india')
-
-WebUI.click(findTestObject('Object Repository/Page_Practice Page/div_India'))
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Practice Page/select_Select                     Option1  _bf898a'), 
-    'option2', true)
-
-WebUI.setText(findTestObject('Object Repository/Page_Practice Page/input_Switch To Alert Example_enter-name'), 'Diksha')
-
-WebUI.click(findTestObject('Object Repository/Page_Practice Page/input_Switch To Alert Example_confirmbtn'))
-
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://rahulshettyacademy.com/AutomationPractice/')
-
-WebUI.click(findTestObject('Object Repository/Page_Practice Page/input_Switch To Alert Example_alertbtn'))
-
-WebUI.click(findTestObject('Object Repository/Page_Practice Page/input_Switch To Alert Example_confirmbtn'))
-WebUI.click(findTestObject('Object Repository/Page_Practice Page/input_Switch To Alert Example_confirmbtn'))
-
+WebUI.mouseOver(findTestObject('Object Repository/MouseHoverSampleTestcase/Page_Katalon AI-augmented Software Quality _596167/div_Products'))
 

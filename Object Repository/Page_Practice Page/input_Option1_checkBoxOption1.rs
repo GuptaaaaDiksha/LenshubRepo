@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Option1_checkBoxOption1</name>
    <tag></tag>
-   <elementGuidId>f0754d85-5418-4d5b-9f62-1e3901571ccd</elementGuidId>
+   <elementGuidId>89d1cbe8-21a9-4880-b1c4-5f9e5b0c729c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>ffe37c34-74ee-4dab-b0fc-a096981487e8</webElementGuid>
+      <webElementGuid>58354314-5ce0-40e1-a586-dfeb7cba2d4b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>id</name>
       <type>Main</type>
       <value>checkBoxOption1</value>
-      <webElementGuid>e78e4d18-7265-42d8-834c-2628f9fb9b29</webElementGuid>
+      <webElementGuid>efc7cfbb-e4b2-4c30-a546-aa787d7c7f68</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>value</name>
       <type>Main</type>
       <value>option1</value>
-      <webElementGuid>ead84f58-b98c-498f-86b5-0d5d33617ca1</webElementGuid>
+      <webElementGuid>57124244-c784-4bb4-acb8-ea9bdd1bd54d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>name</name>
       <type>Main</type>
       <value>checkBoxOption1</value>
-      <webElementGuid>613cc7dc-277b-485a-990b-4dca7087fdd0</webElementGuid>
+      <webElementGuid>582cfc7c-944d-424f-bc42-2d4cbf9bcefe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>type</name>
       <type>Main</type>
       <value>checkbox</value>
-      <webElementGuid>c8199177-f1b6-41da-8fff-35dac1b33343</webElementGuid>
+      <webElementGuid>825f7a05-b3cf-4a4f-b480-84cf1152ef1b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;checkBoxOption1&quot;)</value>
-      <webElementGuid>bbd1c5aa-b547-480d-8a15-f800ec9503ce</webElementGuid>
+      <webElementGuid>1a4f36c8-0272-4be2-add9-531806bc6854</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='checkBoxOption1']</value>
-      <webElementGuid>7f306f6c-18ba-4f33-b1c2-8592aa1e66ce</webElementGuid>
+      <webElementGuid>73f473e7-8b7c-4d72-863f-c8884f4a8b0b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='checkbox-example']/fieldset/label/input</value>
-      <webElementGuid>055c3300-92fd-4da1-8043-c837f705449f</webElementGuid>
+      <webElementGuid>58967f30-7b53-466f-98ba-9ac8d10642fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/fieldset/label/input</value>
-      <webElementGuid>109dff62-6ffc-48ac-9e41-f07c814d5e0f</webElementGuid>
+      <webElementGuid>c0221056-d602-47b8-96b3-a3f44e3755bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'checkBoxOption1' and @name = 'checkBoxOption1' and @type = 'checkbox']</value>
-      <webElementGuid>a04b64be-4651-4023-9ee5-37159e14f0da</webElementGuid>
+      <webElementGuid>626d6a27-0a29-42e3-ac57-8c86140ede83</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
